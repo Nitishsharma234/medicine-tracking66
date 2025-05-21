@@ -1,0 +1,21 @@
+<!-- frontend/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Record Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Student Records</h1>
+  <form id="studentForm">
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <button type="submit">Add Student</button>
+  </form>
+  <table>
+    <thead><tr><th>Name</th><th>Email</th><th>Actions</th></tr></thead>
+    <tbody id="studentList"></tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
